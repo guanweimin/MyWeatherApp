@@ -6,6 +6,8 @@ import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.myweatherapp.android.service.AutoUpdateService;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+
     }
 }
